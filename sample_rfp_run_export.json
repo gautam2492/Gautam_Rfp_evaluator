@@ -1,0 +1,506 @@
+{
+  "rfp_run_id": "RFP-RUN-20260829-142434-464f",
+  "status": "COMPLETED",
+  "created_at": "2026-08-29T08:54:34.842131+00:00",
+  "active_criteria_used": [
+    {
+      "criterion_id": 1,
+      "name": "Technical Capability",
+      "description": "Architecture, integrations, scalability, technical fit",
+      "weight": 30.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 2,
+      "name": "Implementation Plan",
+      "description": "Timeline, milestones, staffing, risk plan",
+      "weight": 20.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 3,
+      "name": "Commercial Value",
+      "description": "Pricing clarity, total cost, assumptions",
+      "weight": 20.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 4,
+      "name": "Security & Compliance",
+      "description": "Controls, certifications, privacy, auditability",
+      "weight": 20.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 5,
+      "name": "Support & Experience",
+      "description": "Support model, similar projects, references",
+      "weight": 10.0,
+      "max_score": 10.0,
+      "is_active": 1
+    }
+  ],
+  "total_suppliers_evaluated": 4,
+  "pipeline_warnings": [],
+  "leaderboard": [
+    {
+      "supplier_name": "NexaWorks",
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "score": 8.5,
+          "max_score": 10.0,
+          "justification": "Robust cloud-native microservices with OAuth2/OIDC and 99.95% SLA.",
+          "evidence": "Cloud-native microservices architecture with OAuth2/OIDC integration."
+        },
+        {
+          "criterion_id": 2,
+          "score": 9.5,
+          "max_score": 10.0,
+          "justification": "Flawless 6-month phased delivery plan with detailed risk mitigation matrix.",
+          "evidence": "Structured 6-month phased delivery with risk mitigation matrix included."
+        },
+        {
+          "criterion_id": 3,
+          "score": 8.0,
+          "max_score": 10.0,
+          "justification": "Balanced commercial package ($180,000) with strong ROI.",
+          "evidence": "Total Commercial Price: Balanced Enterprise Package $180,000."
+        },
+        {
+          "criterion_id": 4,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "Fully SOC 2 Type II and ISO 27001 certified with RBAC.",
+          "evidence": "Full SOC 2 Type II and ISO 27001 certified with quarterly vulnerability audits."
+        },
+        {
+          "criterion_id": 5,
+          "score": 9.5,
+          "max_score": 10.0,
+          "justification": "7 years experience with 24/7 dedicated support and 30-min SLA.",
+          "evidence": "7 years in business; 24/7 Tier-3 support with guaranteed 30-minute SLA."
+        }
+      ],
+      "risks": [
+        "Requires close coordination for 6-month phase cutover"
+      ],
+      "overall_summary": "NexaWorks delivers the most well-rounded proposal with excellent technical capability, strong support, and competitive pricing.",
+      "warnings": [],
+      "submission_date": "2026-07-28",
+      "experience_rating": 4.5,
+      "absolute_score": 88.0,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 8.5,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -0.5,
+          "relative_pct": 94.4444,
+          "justification": "Robust cloud-native microservices with OAuth2/OIDC and 99.95% SLA.",
+          "evidence": "Cloud-native microservices architecture with OAuth2/OIDC integration."
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 9.5,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Flawless 6-month phased delivery plan with detailed risk mitigation matrix.",
+          "evidence": "Structured 6-month phased delivery with risk mitigation matrix included."
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 8.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 10.0,
+          "gap": -2.0,
+          "relative_pct": 80.0,
+          "justification": "Balanced commercial package ($180,000) with strong ROI.",
+          "evidence": "Total Commercial Price: Balanced Enterprise Package $180,000."
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 9.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": -0.5,
+          "relative_pct": 94.7368,
+          "justification": "Fully SOC 2 Type II and ISO 27001 certified with RBAC.",
+          "evidence": "Full SOC 2 Type II and ISO 27001 certified with quarterly vulnerability audits."
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 9.5,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "benchmark": 10.0,
+          "gap": -0.5,
+          "relative_pct": 95.0,
+          "justification": "7 years experience with 24/7 dedicated support and 30-min SLA.",
+          "evidence": "7 years in business; 24/7 Tier-3 support with guaranteed 30-minute SLA."
+        }
+      ],
+      "ppi": 92.7807,
+      "final_rank": 1,
+      "tie_break_info": "Rank #1 | PPI: 92.78% | Submitted: 2026-07-28 | Exp Rating: 4.5 | Supplier: NexaWorks"
+    },
+    {
+      "supplier_name": "Apex Systems",
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "Outstanding microservices architecture with Kubernetes, zero-trust IAM, and 99.999% availability.",
+          "evidence": "Microservices on Kubernetes (EKS), zero-trust IAM, microsecond latency APIs."
+        },
+        {
+          "criterion_id": 2,
+          "score": 7.0,
+          "max_score": 10.0,
+          "justification": "Comprehensive 9-month delivery roadmap with 4 distinct phases and 8 senior architects.",
+          "evidence": "Delivery duration is 9 months structured in 4 phases with 8 senior architects."
+        },
+        {
+          "criterion_id": 3,
+          "score": 5.0,
+          "max_score": 10.0,
+          "justification": "High commercial cost ($250,000) making it the most expensive proposal.",
+          "evidence": "Total Commercial Price: Fixed Fee Contract $250,000."
+        },
+        {
+          "criterion_id": 4,
+          "score": 9.5,
+          "max_score": 10.0,
+          "justification": "Fully certified ISO 27001, SOC 2 Type II, HIPAA with AES-256 encryption.",
+          "evidence": "Certified ISO 27001, SOC 2 Type II, and HIPAA compliant."
+        },
+        {
+          "criterion_id": 5,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "10 years enterprise experience with 15+ Fortune 500 references and 15-min emergency SLA.",
+          "evidence": "10 years of enterprise experience with 15+ Fortune 500 reference projects."
+        }
+      ],
+      "risks": [
+        "Highest cost tier among all bidders ($250k)",
+        "Longer implementation duration (9 months)"
+      ],
+      "overall_summary": "Apex Systems presents a top-tier technical and security proposal with superior support, but commands a premium price and longer timeline.",
+      "warnings": [],
+      "submission_date": "2026-08-01",
+      "experience_rating": 4.8,
+      "absolute_score": 79.0,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 9.0,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Outstanding microservices architecture with Kubernetes, zero-trust IAM, and 99.999% availability.",
+          "evidence": "Microservices on Kubernetes (EKS), zero-trust IAM, microsecond latency APIs."
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 7.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": -2.5,
+          "relative_pct": 73.6842,
+          "justification": "Comprehensive 9-month delivery roadmap with 4 distinct phases and 8 senior architects.",
+          "evidence": "Delivery duration is 9 months structured in 4 phases with 8 senior architects."
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 5.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 10.0,
+          "gap": -5.0,
+          "relative_pct": 50.0,
+          "justification": "High commercial cost ($250,000) making it the most expensive proposal.",
+          "evidence": "Total Commercial Price: Fixed Fee Contract $250,000."
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 9.5,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Fully certified ISO 27001, SOC 2 Type II, HIPAA with AES-256 encryption.",
+          "evidence": "Certified ISO 27001, SOC 2 Type II, and HIPAA compliant."
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 9.0,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "benchmark": 10.0,
+          "gap": -1.0,
+          "relative_pct": 90.0,
+          "justification": "10 years enterprise experience with 15+ Fortune 500 references and 15-min emergency SLA.",
+          "evidence": "10 years of enterprise experience with 15+ Fortune 500 reference projects."
+        }
+      ],
+      "ppi": 83.7368,
+      "final_rank": 2,
+      "tie_break_info": "Rank #2 | PPI: 83.74% | Submitted: 2026-08-01 | Exp Rating: 4.8 | Supplier: Apex Systems"
+    },
+    {
+      "supplier_name": "Orbit Digital",
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "score": 6.5,
+          "max_score": 10.0,
+          "justification": "Custom legacy wrapper framework; technical integration details are vague.",
+          "evidence": "Custom legacy framework wrapper with REST integration options."
+        },
+        {
+          "criterion_id": 2,
+          "score": 5.5,
+          "max_score": 10.0,
+          "justification": "Vague implementation milestones; team allocation deferred post-kickoff.",
+          "evidence": "Estimated 7 months timeline; specific milestone breakdown determined after kickoff."
+        },
+        {
+          "criterion_id": 3,
+          "score": 7.0,
+          "max_score": 10.0,
+          "justification": "Mid-tier pricing ($210,000) for perpetual license model.",
+          "evidence": "Total Commercial Price: Competitive Mid-Tier $210,000."
+        },
+        {
+          "criterion_id": 4,
+          "score": 7.5,
+          "max_score": 10.0,
+          "justification": "ISO 27001 certified with standard firewall and backup controls.",
+          "evidence": "ISO 27001 certified; standard firewall protection."
+        },
+        {
+          "criterion_id": 5,
+          "score": 10.0,
+          "max_score": 10.0,
+          "justification": "Industry veteran with 12 years experience and 40+ reference stories.",
+          "evidence": "12 years market leadership with over 40+ client success stories."
+        }
+      ],
+      "risks": [
+        "Vague integration and implementation milestone details",
+        "Higher cost relative to technical innovation"
+      ],
+      "overall_summary": "Orbit Digital has unmatched industry experience and client references, but provides vague implementation and architectural specifications.",
+      "warnings": [],
+      "submission_date": "2026-08-05",
+      "experience_rating": 5.0,
+      "absolute_score": 69.5,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 6.5,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -2.5,
+          "relative_pct": 72.2222,
+          "justification": "Custom legacy wrapper framework; technical integration details are vague.",
+          "evidence": "Custom legacy framework wrapper with REST integration options."
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 5.5,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": -4.0,
+          "relative_pct": 57.8947,
+          "justification": "Vague implementation milestones; team allocation deferred post-kickoff.",
+          "evidence": "Estimated 7 months timeline; specific milestone breakdown determined after kickoff."
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 7.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 10.0,
+          "gap": -3.0,
+          "relative_pct": 70.0,
+          "justification": "Mid-tier pricing ($210,000) for perpetual license model.",
+          "evidence": "Total Commercial Price: Competitive Mid-Tier $210,000."
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 7.5,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": -2.0,
+          "relative_pct": 78.9474,
+          "justification": "ISO 27001 certified with standard firewall and backup controls.",
+          "evidence": "ISO 27001 certified; standard firewall protection."
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 10.0,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "benchmark": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Industry veteran with 12 years experience and 40+ reference stories.",
+          "evidence": "12 years market leadership with over 40+ client success stories."
+        }
+      ],
+      "ppi": 73.0351,
+      "final_rank": 3,
+      "tie_break_info": "Rank #3 | PPI: 73.04% | Submitted: 2026-08-05 | Exp Rating: 5.0 | Supplier: Orbit Digital"
+    },
+    {
+      "supplier_name": "BrightPath Tech",
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "score": 6.0,
+          "max_score": 10.0,
+          "justification": "Basic standard server deployment suitable for medium workloads.",
+          "evidence": "Standard cloud server deployment with REST endpoints."
+        },
+        {
+          "criterion_id": 2,
+          "score": 9.0,
+          "max_score": 10.0,
+          "justification": "Very fast 3-month timeline with agile setup.",
+          "evidence": "Aggressive 3-month timeline: Setup & Deploy (Month 1), Go-Live (Month 3)."
+        },
+        {
+          "criterion_id": 3,
+          "score": 10.0,
+          "max_score": 10.0,
+          "justification": "Lowest price ($120,000) providing maximum commercial savings.",
+          "evidence": "Total Commercial Price: Low-Cost Guarantee $120,000."
+        },
+        {
+          "criterion_id": 4,
+          "score": 4.0,
+          "max_score": 10.0,
+          "justification": "Weak compliance detail; official SOC2 certification is pending.",
+          "evidence": "Standard password auth; official SOC2 certification is currently pending."
+        },
+        {
+          "criterion_id": 5,
+          "score": 4.0,
+          "max_score": 10.0,
+          "justification": "Only 2 years in business with basic email support.",
+          "evidence": "Startup founded 2 years ago; standard email support during business hours."
+        }
+      ],
+      "risks": [
+        "Pending SOC2 compliance creates security risk",
+        "Limited 2-year company track record"
+      ],
+      "overall_summary": "BrightPath Tech offers the lowest price and fastest turnaround, but lacks security compliance and enterprise experience.",
+      "warnings": [],
+      "submission_date": "2026-07-15",
+      "experience_rating": 2.0,
+      "absolute_score": 68.0,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 6.0,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_pct": 66.6667,
+          "justification": "Basic standard server deployment suitable for medium workloads.",
+          "evidence": "Standard cloud server deployment with REST endpoints."
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 9.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": -0.5,
+          "relative_pct": 94.7368,
+          "justification": "Very fast 3-month timeline with agile setup.",
+          "evidence": "Aggressive 3-month timeline: Setup & Deploy (Month 1), Go-Live (Month 3)."
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 10.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 10.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Lowest price ($120,000) providing maximum commercial savings.",
+          "evidence": "Total Commercial Price: Low-Cost Guarantee $120,000."
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 4.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "benchmark": 9.5,
+          "gap": -5.5,
+          "relative_pct": 42.1053,
+          "justification": "Weak compliance detail; official SOC2 certification is pending.",
+          "evidence": "Standard password auth; official SOC2 certification is currently pending."
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 4.0,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "benchmark": 10.0,
+          "gap": -6.0,
+          "relative_pct": 40.0,
+          "justification": "Only 2 years in business with basic email support.",
+          "evidence": "Startup founded 2 years ago; standard email support during business hours."
+        }
+      ],
+      "ppi": 71.3684,
+      "final_rank": 4,
+      "tie_break_info": "Rank #4 | PPI: 71.37% | Submitted: 2026-07-15 | Exp Rating: 2.0 | Supplier: BrightPath Tech"
+    }
+  ]
+}
